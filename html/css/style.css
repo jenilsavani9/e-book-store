@@ -181,8 +181,6 @@ input:focus {
   color: #414141;
 }
 
-
-
 /* new customers */
 
 .content {
@@ -205,7 +203,7 @@ input:focus {
 
 .instruction-new-customer-heading {
   font-size: 15px;
-  font-family: 'roboto';
+  font-family: "roboto";
   color: #838383;
   margin-top: 20px;
   font-weight: 300;
@@ -249,7 +247,7 @@ input:focus {
 
 .ack-register-customer {
   font-size: 15px;
-  font-family: 'roboto';
+  font-family: "roboto";
   color: #838383;
   margin-top: 20px;
   font-weight: 300;
@@ -278,7 +276,8 @@ input:focus {
   margin-top: 38px;
 }
 
-#email, #password {
+#email,
+#password {
   display: block;
 }
 
@@ -294,10 +293,9 @@ input:focus {
   margin-top: 15px;
 }
 
-
 /* footer css */
 
-footer .footer-logo img{
+footer .footer-logo img {
   width: 140px;
   margin: 40px 0 20px 0;
 }
@@ -312,10 +310,10 @@ footer {
 .footer-copy {
   font-size: 15px;
   color: #838383;
-  font-family: 'roboto light';
+  font-family: "roboto";
   margin-bottom: 40px;
+  font-weight: 300;
 }
-
 
 /* register page content */
 
@@ -359,7 +357,8 @@ footer {
   padding-bottom: 20px;
 }
 
-.register-up, .login-info-heading {
+.register-up,
+.login-info-heading {
   font-size: 20px;
   font-family: roboto;
   color: #414141;
@@ -373,7 +372,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.first-name-input label, 
+.first-name-input label,
 .last-name-input label,
 .personal-info label,
 .password-1-register label,
@@ -395,7 +394,8 @@ footer {
   width: 1105px;
 }
 
-.last-name-input, .password-2-register {
+.last-name-input,
+.password-2-register {
   margin-left: 25px;
 }
 
@@ -437,4 +437,108 @@ footer {
 
 .register-form-button {
   margin-top: 60px;
+}
+
+/* edit product page */
+
+.form-flex {
+  display: flex;
+}
+
+#edit-firstname,
+#edit-lastname,
+#shop-by-category,
+#description-editform {
+  display: block;
+  width: 540px;
+  height: 38px;
+  border: 1px solid rgba(65, 65, 65, 0.3);
+  margin-top: 15px;
+  margin-bottom: 35px;
+  font-family: roboto;
+  font-size: 18px;
+  color: #212121;
+}
+
+.form-flex {
+  margin: 0 250px;
+}
+
+.edit-product-form {
+  margin-right: 20px;
+}
+
+.edit-save {
+  width: 100px;
+  height: 40px;
+  background-color: #80bf32;
+  color: white;
+  border: none;
+  font-size: 17px;
+  font-family: roboto;
+  border-radius: 3%;
+  margin-right: 5px;
+  margin-left: 290px;
+  margin-top: 35px;
+}
+
+.edit-cancel {
+  width: 100px;
+  height: 40px;
+  background-color: #f14d54;
+  color: white;
+  border: none;
+  font-size: 17px;
+  font-family: roboto;
+  border-radius: 3%;
+}
+
+.edit-page-header {
+  text-align: center;
+  font-size: 32px;
+  color: #414141;
+  font-family: roboto;
+  font-weight: 600;
+  margin: 50px 0 25px 0;
+}
+
+.fl-name {
+  margin: 0 20px 0 40px;
+}
+
+.edit-first-name-input label,
+.shop-by-category label,
+.edit-last-name-input label,
+.edit-description label,
+.fl-name label {
+  font-family: roboto;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  height: 40px;
+  width: 120px;
+  background-color: #f14d54;
+  padding: 10px 30px;
+  color: white;
+  font-family: roboto;
+}
+
+.file-upload {
+  border: 1px solid rgba(65, 65, 65, 0.3);
+  width: 540px;
+  padding: 10px 0px;
+  margin-top: 30px;
+  margin-left: 288px;
+  font-family: roboto;
+}
+
+.down-ar {
+  margin-left: 372px;
+  position: absolute;
+  padding-top: 51px;
+  cursor: pointer;
 }
