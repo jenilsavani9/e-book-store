@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+    <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="images/favicon/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="images/favicon/android-chrome-384x384.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="images/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="images/favicon/mstile-150x150.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Tatvasoft</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header content -->
+    <header class="header">
+      <div class="top-header">
+        <div class="logo">
+          <img src="./images/site-logo.svg" alt="tatvasoft" />
+        </div>
+        <div class="right-nav">
+          <div class="navigation">
+            <ul>
+              <li class="login"><a href="#">Login</a></li>
+              <li><a href="">Register</a></li>
+            </ul>
+          </div>
+          <div class="cart">
+            <img src="./images/cart.svg" alt="cart" />
+            <span>0 Cart</span>
+          </div>
+        </div>
+      </div>
+      <div class="search-bar">
+        <div class="search-and-btn">
+          <div class="input">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="What are you looking for..."
+            />
+          </div>
+          <div class="search-btn">
+            <button class="btn-green btn">
+              <img src="./images/search.svg" alt="search" /><span> Search</span>
+            </button>
+            <button class="btn-red btn">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main content -->
+    <main>
+      <div class="main-top">
+        <span>Home</span>
+        <img src="./images/breadcrumb-arrow.svg" alt="" />
+        <span class="main-ack-login">Create an Account</span>
+      </div>
+      <div class="main-task-ack">Login or Create an Account</div>
+
+      <div class="register-main">
+        <div class="register-up">Personal Information</div>
+        <div class="register-down">
+          <div class="register-ack">
+            Please enter a following information to create your account.
+          </div>
+          <form class="register-form">
+            <div class="personal-info">
+              <div class="first-last-name">
+                <div class="first-name-input">
+                  <label for="firstname">First Name *</label>
+                  <input type="text" name="firstname" id="firstname" />
+                </div>
+                <div class="last-name-input">
+                  <label for="lastname">Last Name *</label>
+                  <input type="text" name="lastname" id="lastname" />
+                </div>
+              </div>
+              <label for="login-email">Email Address *</label>
+              <input type="email" name="email" id="login-email" />
+            </div>
+            <div class="login-info">
+              <div class="login-info-heading">Login Information</div>
+              <div class="login-pass">
+                <div class="password-1-register">
+                  <label for="login-password">Password *</label>
+                  <input type="password" name="password" id="login-password" />
+                </div>
+                <div class="password-2-register">
+                  <label for="password2">Confirm Password *</label>
+                  <input type="password" name="password2" id="password2" />
+                </div>
+              </div>
+            </div>
+            <button class="register-form-button">Register</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer element -->
+    <footer>
+      <div class="footer-logo"><img src="./images/site-logo.svg" alt="" /></div>
+      <div class="footer-copy">
+        &copy; 2015 Tatvaoft.com. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
