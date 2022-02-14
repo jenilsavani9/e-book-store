@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+    <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="images/favicon/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="images/favicon/android-chrome-384x384.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="images/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="images/favicon/mstile-150x150.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Tatvasoft</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header content -->
+    <header class="header">
+      <div class="top-header">
+        <div class="logo">
+          <img src="./images/site-logo.svg" alt="tatvasoft" />
+        </div>
+        <div class="right-nav">
+          <div class="navigation">
+            <ul>
+              <li class="login"><a href="#">Login</a></li>
+              <li><a href="">Register</a></li>
+            </ul>
+          </div>
+          <div class="cart">
+            <img src="./images/cart.svg" alt="cart" />
+            <span>0 Cart</span>
+          </div>
+        </div>
+      </div>
+      <div class="search-bar">
+        <div class="search-and-btn">
+          <div class="input">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="What are you looking for..."
+            />
+          </div>
+          <div class="search-btn">
+            <button class="btn-green btn">
+              <img src="./images/search.svg" alt="search" /><span> Search</span>
+            </button>
+            <button class="btn-red btn">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main content -->
+    <main>
+      <div class="product-final-header">Product page</div>
+      <div class="product-final-content">
+        <div class="product-final-add-product">
+          <input
+            type="text"
+            class="product-final-add-product-input"
+            placeholder="Search..."
+          />
+          <button class="product-final-add-product-btn">Add Product</button>
+        </div>
+        <div class="product-final-list">
+          <table>
+            <tr>
+              <th class="pf-id">Id</th>
+              <th>Ttitulo</th>
+              <th>Fonte De Dasos</th>
+              <th>Query</th>
+              <th></th>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>IBSM Followup</td>
+              <td>Data Source 1</td>
+              <td>Teste</td>
+              <td class="btn-pf">
+                <button class="btn-pf-green">Edit</button>
+                <button class="btn-pf-red">Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>IBSM Followup</td>
+              <td>Data Source 2</td>
+              <td>Teste</td>
+              <td class="btn-pf">
+                <button class="btn-pf-green">Edit</button>
+                <button class="btn-pf-red">Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td>24</td>
+              <td>IBSM Followup</td>
+              <td>Data Source 2</td>
+              <td>Teste</td>
+              <td class="btn-pf">
+                <button class="btn-pf-green">Edit</button>
+                <button class="btn-pf-red">Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>IBSM Followup</td>
+              <td>Data Source 1</td>
+              <td>Teste</td>
+              <td class="btn-pf">
+                <button class="btn-pf-green">Edit</button>
+                <button class="btn-pf-red">Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td>IBSM Followup</td>
+              <td>Data Source 2</td>
+              <td>Teste</td>
+              <td class="btn-pf">
+                <button class="btn-pf-green">Edit</button>
+                <button class="btn-pf-red">Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td>23</td>
+              <td>IBSM Followup</td>
+              <td>Data Source 2</td>
+              <td>Teste</td>
+              <td class="btn-pf">
+                <button class="btn-pf-green">Edit</button>
+                <button class="btn-pf-red">Delete</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="page-nav">
+          <span>
+            Rows per page: <button>5</button><img src="./images/down-arrow.svg" alt="down-arrow" class="pn-down">
+          </span>
+          <span>
+            1-5 of 6
+          </span>
+          <span>
+            <img src="./images/breadcrumb-arrow.svg" alt="" class="reverse-arrow">
+            <img src="./images/breadcrumb-arrow.svg" alt="" class="forward-arrow">
+          </span>
+      </div>
+    </main>
+
+    <!-- footer element -->
+    <footer>
+      <div class="footer-logo"><img src="./images/site-logo.svg" alt="" /></div>
+      <div class="footer-copy">
+        &copy; 2015 Tatvaoft.com. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>

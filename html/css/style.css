@@ -96,7 +96,7 @@ header {
   border: none;
   background-color: #80bf32;
   color: white;
-  border-radius: 5%;
+  border-radius: 4px;
 }
 
 .btn-red {
@@ -106,7 +106,7 @@ header {
   border: none;
   color: white;
   width: 129px;
-  border-radius: 5%;
+  border-radius: 4px;
 }
 
 .search-bar .input input {
@@ -541,4 +541,125 @@ input[type="file"] {
   position: absolute;
   padding-top: 51px;
   cursor: pointer;
+}
+
+/* product final page css */
+
+.product-final-header {
+  font-size: 32px;
+  font-family: roboto;
+  color: #414141;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.product-final-add-product-btn {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: #f14d54;
+  font-size: 14px;
+  border: none;
+  font-family: roboto;
+  border-radius: 4px;
+}
+
+.product-final-add-product-input {
+  width: 300px;
+  height: 37px;
+  font-family: roboto;
+  font-size: 14px;
+  border: 1px solid rgba(65, 65, 65, 0.5);
+  padding-left: 10px;
+  font-weight: 300;
+  margin-right: 10px;
+}
+
+.product-final-add-product {
+  text-align: end;
+  margin-right: 295px;
+  margin-top: 45px;
+  margin-bottom: 32px;
+}
+
+.btn-pf-green {
+  width: 80px;
+  height: 30px;
+  color: #80bf32;
+  border: 1px solid #80bf32;
+  background: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.btn-pf-red {
+  width: 80px;
+  height: 30px;
+  color: #f14d54;
+  border: 1px solid #f14d54;
+  background: none;
+  border-radius: 4px;
+}
+
+.product-final-list table tr th,
+.product-final-list table tr td {
+  border-bottom: 1px solid rgba(65, 65, 65, 0.5);
+  margin-bottom: 20px;
+}
+
+.product-final-list table tr {
+  height: 64px;
+}
+
+.product-final-list table {
+  width: 1090px;
+  margin-left: 300px;
+  font-size: 14px;
+  font-family: roboto;
+  color: #212121;
+}
+
+.btn-pf {
+  text-align: end;
+}
+
+.product-final-list table tr th {
+  text-align: left;
+}
+
+.reverse-arrow {
+  transform: rotate(180deg);
+  position: absolute;
+  margin: 6px 0px 0px 20px;
+}
+
+.page-nav {
+  text-align: end;
+  margin-top: 28px;
+  margin-right: 340px;
+}
+
+.page-nav span button {
+  width: 49px;
+  height: 30px;
+  text-align: start;
+  padding: 0 0 0 10px;
+  background: none;
+  border: 1px solid rgba(65, 65, 65, 0.5);
+}
+
+.forward-arrow {
+  position: absolute;
+  margin: 10px 0px 0px 63px;
+}
+
+.pn-down {
+  position: absolute;
+  margin: 13px 25px 0 -18px;
+}
+
+.page-nav span {
+  margin-right: 35px;
 }
