@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: roboto;
 }
 
 button {
@@ -662,4 +663,139 @@ input[type="file"] {
 
 .page-nav span {
   margin-right: 35px;
+}
+
+
+/*  cart page css */
+
+.cart-page-header {
+  font-size: 32px;
+  color: #414141;
+  font-family: roboto;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.cart-item-count {
+  font-size: 18px;
+  color: #414141;
+}
+
+.cart-item-m-total {
+  font-size: 15px;
+  color: #414141;
+}
+
+.cart-items-total {
+  display: flex;
+  justify-content: space-between;
+  width: 585.2px;
+  margin-bottom: 12px;
+}
+
+.cart-items {
+  margin-left: 550px;
+}
+
+.cart-item-card {
+  width: 585.2px;
+  height: 149.2px;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  display: flex;
+}
+
+.cart-item-img img {
+  width: 150px;
+  height: 117.2px;
+  margin: 15px 0 0 15px;
+}
+
+.cart-item-details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+    margin: 0 15px;
+}
+
+.btn-add , 
+.btn-minus {
+  width: 20px;
+  height: 20px;
+  background-color: #f14d54;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.btn-item-show {
+  width: 20px;
+  height: 20px;
+  background: none;
+  border: 1px solid rgba(65, 65, 65, 0.5);
+  cursor: default;
+  margin-right: 10px;
+}
+
+.cart-item-remove button {
+  font-size: 15px;
+  border: none;
+  background: none;
+  color: #f14d54;
+}
+
+.item-offer span {
+  color: #f14d54;
+}
+
+.cart-item-name {
+  margin-bottom: 10px;
+}
+
+.cart-item-desc {
+  margin-bottom: 15px;
+  color: #f14d54;
+  font-size: 15px;
+}
+
+.cart-item-price,
+.item-offer,
+.cart-item-remove {
+  text-align: end;
+}
+
+.cart-item-price {
+  margin-bottom: 10px;
+}
+
+.item-offer {
+  margin-bottom: 15px;
+}
+
+.item-offer strike{
+  margin-right: 8px;
+}
+
+.cart-item-details {
+  margin-top: 15px;
+}
+
+.place-order-btn button {
+  height: 139.75px;
+  height: 40px;
+  background-color: #f14d54;
+  color: white;
+  font-size: 18px;
+  margin-left: 550px;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 20px;
+  margin-top: 5px;
+}
+
+.cart-item-card {
+  margin-bottom: 30px;
 }
